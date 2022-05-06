@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header ul {
+  margin: auto;
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  gap: 40px;
+  justify-content: space-around;
+}
+header ul li a {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 24px;
+  color: brown;
+}
+
+main section {
+  margin: 40px 24px;
+}
+main section h1 {
+  font-size: 72px;
+}
+main section .container {
+  display: flex;
+  gap: 60px;
+}
+main section .content {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+main section .content form {
+  margin-top: 24px;
+  max-width: 500px;
+}
+main section .content form label {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+main section .content form input {
+  padding: 4px 8px;
+  margin-bottom: 8px;
+}
+main section .content form input[type=text], main section .content form input[type=password] {
+  width: 100%;
+}
+main section .content form input[type=submit] {
+  margin-top: 12px;
+}
+main section .info {
+  margin-top: 24px;
+}
+main section .info span {
+  display: block;
+  margin-top: 4px;
+  padding: 6px 12px;
+  background-color: rgb(156, 148, 255);
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
